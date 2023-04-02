@@ -48,7 +48,7 @@ utils = setuptools.Extension("pycopcor._utils",
                              )
 
 setuptools.setup(name='pycopcor',
-                 version='0.1',
+                 version='1.0.0',
                  description='Copula based Corrleation Measures',
                  packages=[
                      "pycopcor",
