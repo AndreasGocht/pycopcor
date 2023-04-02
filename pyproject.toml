@@ -1,0 +1,15 @@
+[build-system]
+requires = [
+  "setuptools>=42",
+  "wheel",
+  "numpy",
+  "scipy",
+  "pytest",
+  "pytest-benchmark"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.autopep8]
+max_line_length = 120
+indent-size = 4
+aggressive = 3
